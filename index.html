@@ -222,7 +222,14 @@
                 </span>
             </span>
 
-          <br>
+          
+            <span id="/2020/04/04/hello-world/" class="post-meta-item leancloud_visitors" data-flag-title="在水一方" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span><br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
@@ -280,6 +287,8 @@
 
           </div>
           
+  <div id="gitalk-container"></div>
+
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -400,7 +409,7 @@
       <i class="fa fa-chart-area"></i>
     </span>
     <span title="站点总字数">0k</span>
-   
+    <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
@@ -408,26 +417,6 @@
 </div><script color="0,0,0" opacity="0.6" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
 
         
-<div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-user"></i>
-      </span>
-      <span class="site-uv" title="总访客量">
-        <span id="busuanzi_value_site_uv"></span>
-      </span>
-    </span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-eye"></i>
-      </span>
-      <span class="site-pv" title="总访问量">
-        <span id="busuanzi_value_site_pv"></span>
-      </span>
-    </span>
-</div>
 
 
 
@@ -478,9 +467,12 @@
 
 
 
+{$ include 'gitalk.swig'}
+
   
 
   
+
 
 
   
