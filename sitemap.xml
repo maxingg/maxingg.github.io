@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://maxing486.gitee.io/2020/04/06/hexo-next%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B0%8F%E7%BB%93/</loc>
+    
+    <lastmod>2020-04-06T16:34:27.424Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://maxing486.gitee.io/categories/index.html</loc>
     
     <lastmod>2020-04-06T13:54:24.851Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://maxing486.gitee.io/tags/index.html</loc>
     
     <lastmod>2020-04-06T13:54:14.666Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://maxing486.gitee.io/2020/04/04/hello-world/</loc>
-    
-    <lastmod>2020-04-06T12:25:25.237Z</lastmod>
     
   </url>
   
